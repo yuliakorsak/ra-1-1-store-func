@@ -1,7 +1,7 @@
 import './css/App.css';
 
 function ShopItemFunc(props) {
-  const item = props.item;
+  const { item } = props;
   return (
     <div className="main-content">
       <h2>{item.brand}</h2>
